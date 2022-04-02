@@ -1,10 +1,27 @@
 import React from 'react';
+import Mainpanel from '../components/Mainpanel';
+import './style.css'
+import StoreMerchcount from '../components/StoreMerchcount';
+import Appliedcount from '../components/Appliedcount';
+
 
 function Home() {
   return (
     <div className='home'>
-      <h1>Home</h1>
+      <Mainpanel className="mainpanel">
+
+      </Mainpanel>
+     
+    
+      <StoreMerchcount/>
+    
+      <Appliedcount/>
+     
+     
     </div>
+
+
+    
   );
 }
 

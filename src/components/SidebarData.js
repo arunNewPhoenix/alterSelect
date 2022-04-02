@@ -1,13 +1,16 @@
 import React from 'react';
 import * as FaIcons from 'react-icons/fa';
-import * as AiIcons from 'react-icons/ai';
-import * as IoIcons from 'react-icons/io';
 
+import * as IoIcons from 'react-icons/io';
+import { FaHome } from 'react-icons/fa';
+import { FaWarehouse } from "react-icons/fa";
+import {BsPersonCheckFill} from "react-icons/bs";
+import {HiInformationCircle} from "react-icons/hi";
 export const SidebarData = [
   {
     title: 'Home',
     path: '/',
-    icon: <AiIcons.AiFillHome />,
+    icon: <FaHome />,
     cName: 'nav-text'
   },
   {
@@ -17,27 +20,24 @@ export const SidebarData = [
     cName: 'nav-text'
   },
   {
-    title: 'Products',
-    path: '/products',
-    icon: <FaIcons.FaCartPlus />,
+    title: 'Stores',
+    path: '/stores',
+    icon: <FaWarehouse />,
     cName: 'nav-text'
   },
   {
-    title: 'Team',
-    path: '/team',
-    icon: <IoIcons.IoMdPeople />,
-    cName: 'nav-text'
-  },
-  {
-    title: 'Messages',
-    path: '/messages',
-    icon: <FaIcons.FaEnvelopeOpenText />,
+    title: 'Applied-Merchs',
+    path: '/appliedmerchs',
+    icon: <BsPersonCheckFill />,
     cName: 'nav-text'
   },
   {
     title: 'Support',
     path: '/support',
-    icon: <IoIcons.IoMdHelpCircle />,
+    icon: <HiInformationCircle />,
     cName: 'nav-text'
-  }
+  },
+
+
+
 ];

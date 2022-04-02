@@ -1,0 +1,10 @@
+.appliedpanel{
+    position: absolute;
+left: 280px;
+top: 130px;
+width: 900px;
+height: 1226px;
+background-color: #fff;
+/* border: 3px solid green; */
+
+}

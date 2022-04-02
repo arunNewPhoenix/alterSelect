@@ -1,0 +1,51 @@
+
+.mainpanel{
+position: absolute;
+left: 280px;
+top: 130px;
+width: 2000px;
+height: 426px;
+background-color: #fff;
+/* border: 3px solid green; */
+
+}
+.storemerchcount{
+    position: fixed;
+    left: 2299px;
+    top: 130px;
+    width: 494px;
+    height: 190px;
+    background-color: #fff;
+    
+    border-radius: 4%;
+}
+
+.storecount{
+    padding: 6px 6px;
+    margin: 5%;
+    display: inline-flex;
+
+    
+}
+.divider{
+    border-left: 6px solid #333;
+    height: 100px;
+    top: 34px;
+    position:absolute;
+    left: 35%;
+}
+.size-font-store{
+    font-size: 55%;
+    left: 19%;
+    position: absolute;
+    color: #333;
+    text-decoration: underline;
+}
+.size-font-merchan{
+    font-size: 55%;
+    left: 50%;
+    position: absolute;
+    color: #333;
+    text-decoration: underline;
+}
+

@@ -1,0 +1,9 @@
+.reportpanel{
+    position: absolute;
+left: 280px;
+top: 130px;
+width: 1250px;
+height: 1126px;
+background-color: #fff;
+/* border: 3px solid green; */
+}

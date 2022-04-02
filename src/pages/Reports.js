@@ -1,9 +1,15 @@
 import React from 'react';
+import './style.css'
+import ReportsPanel from '../components/ReportsPanel';
 
 function Reports() {
   return (
     <div className='reports'>
-      <h1>Reports</h1>
+        <ReportsPanel>
+
+         <h1>tgtbgbgtb</h1>
+       
+       </ReportsPanel>
     </div>
   );
 }
